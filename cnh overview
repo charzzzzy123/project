@@ -1,0 +1,85 @@
+China’s Macro Regimes
+From 2020 to 2025, CNH performance has been shaped by shifting macroeconomic regimes, policy adjustments, and global market conditions. The initial phase saw strong CNH appreciation as global liquidity surged post-COVID, supporting capital inflows into China. However, this reversed in 2022 with aggressive Fed tightening, driving USD strength and CNH depreciation amid capital outflows. By late 2022, the PBOC intervened to stabilize the currency, limiting excessive volatility. In 2023, China’s weaker-than-expected post-reopening recovery kept CNH under pressure, while 2024-2025 has been marked by heightened policy uncertainty, Southbound outflows, and a more managed trading range. As China navigates economic rebalancing, CNH remains sensitive to policy shifts, capital flows, and external market conditions.
+
+What is CNH
+
+CNH is the offshore version of the Chinese yuan (CNY), primarily traded outside mainland China, with its value determined by market forces rather than direct intervention by the People’s Bank of China (PBOC). It allows international investors to trade renminbi (RMB) freely, unlike CNY, which is tightly controlled within China.
+
+CNH (Offshore RMB): Traded in Hong Kong and global markets, subject to supply and demand with less direct PBOC control.
+CNY (Onshore RMB): Traded within mainland China, with a daily fixing rate set by the PBOC and a tightly managed trading band.Additionally, via onshore Liquidity Adjustments: The PBOC controls domestic liquidity via interest rates, reserve requirements, and FX reserve adjustments.
+
+
+Most trade strategy works on momentum for CNH
+Only exclusion is the CNH-CNY strategy. The CNH-CNY strategy is more sensitive to these short-term corrections, while CFETS and other momentum strategies capitalize on broader, longer-term market trends. CNH (offshore Chinese yuan) is more susceptible to PBOC policy interventions and capital flow restrictions than other assets, which often leads to mean-reversion behavior. 
+The other strategies in the basket are generally influenced by broader macro factors (e.g., global liquidity, interest rate differentials, economic growth, capital flows), which do not exhibit the same mean-reverting characteristics
+Macroeconomic Random Forest Model: This model likely uses various macroeconomic factors to predict currency movements, but these factors can cause trends, not just reversion. For instance, interest rate differentials between countries or growth expectations often result in sustained trends rather than mean reversion.
+Volatility Adjusted Carry: Carry trades work on interest rate differentials and economic cycles. They tend to perform better during periods of global economic stability or high yield, creating momentum-based trends rather than mean reversion. Volatility-adjusted strategies are more likely to benefit from continued trends in risk sentiment and carry trade inflows, not reversals.
+CFETS Basket: The CFETS RMB Index tracks the value of the yuan against a basket of currencies. While it can be influenced by PBOC policy, it's also affected by global market forces, and momentum plays a bigger role. Global trade, risk sentiment, and capital flows can create trends that persist over time, while mean reversion is less pronounced.
+Southbound Buy Turnovers: This strategy tracks the capital flows from Hong Kong into mainland Chinese stocks, which are influenced by investor sentiment and liquidity. Momentum is more likely here because capital flows are driven by long-term investment trends, risk appetite, and geopolitical conditions, not by forces that induce mean reversion.
+Conversely, strategies based on global capital flows (such as CFETS basket or Southbound turnover) tend to be driven by broader risk sentiment and global liquidity, creating longer-lasting trends. As a result, these markets are more prone to momentum than mean reversion.
+CNH CNY reversion strategy
+The CNH-CNY mean reversion trade strategy aims to profit from the pricing divergence between the offshore (CNH)and onshore (CNY) Chinese yuan. When CNH deviates significantly from CNY, the strategy assumes that the spread will mean revert, driven by factors like PBOC interventions, capital flows, or policy adjustments.
+CNH-CNY spreads indicate capital controls, policy interventions, or liquidity conditions.
+CNH-CNY Spread as a Market Signal
+If CNH depreciates significantly against CNY, it suggests market participants expect further weakness, potentially prompting PBOC intervention (e.g., guiding state banks to buy CNH).
+If CNH trades at a premium to CNY, it can signal capital inflows or easing restrictions, leading to a stronger offshore RMB.
+This strategy works best during periods of policy stability or moderate market volatility, but may struggle when market sentiment is driven by unpredictable global factors.
+
+Relative equity performance
+
+The HSI-SPX relative performance trading strategy seeks to capitalize on the performance differential between the Hang Seng Index (HSI) and the S&P 500 Index (SPX)
+
+Strong HSI equity performance, signals capital inflow.
+
+The HSI-SPX relative performance trading strategy can be an effective tool for measuring CNH performancebecause both indices represent key components of their respective economies—Hong Kong (through the Hang Seng Index) and the U.S. (through the S&P 500). The performance differential between the HSI and SPX often reflects broader macroeconomic trends that influence the Chinese yuan (CNH), such as capital flows, interest rate differentials, and market sentiment. A rising HSI relative to SPX typically signals increased capital inflows into Hong Kong and China, which may strengthen the CNH as foreign investment and demand for Chinese assets increase. Conversely, when SPX outperforms HSI, it can suggest weaker performance in the Chinese economy, potentially leading to capital outflowsfrom China and a weaker CNH. Moreover, geopolitical factors, such as trade tensions, shifts in global risk sentiment, and changes in Chinese monetary policy (e.g., PBOC actions), can disproportionately affect the performance of the Hang Seng Index, and consequently influence the CNH. Therefore, the HSI-SPX performance differential serves as a valuable gauge for predicting CNH trends, particularly when there is a noticeable divergence in performance that could signal a shift in capital flows or broader economic conditions in China relative to the U.S.
+
+
+This strategy is most effective when market conditions are stable and economic factors drive performance disparities, but it may underperform during periods of extreme volatility or global risk-off events.
+
+
+
+Southbound trading strategy
+Southbound Trading Strategy refers to the trading of Hong Kong-listed stocks by mainland Chinese investors through the Stock Connect programs (i.e., Shanghai-Hong Kong Stock Connect and Shenzhen-Hong Kong Stock Connect). Southbound trading allows mainland investors to buy stocks in the Hong Kong market, which is considered an important channel for capital flows between China and the global markets.
+Track the volume of Southbound trading flows as an indicator of investor sentiment. Large inflows suggest strong demand for Hong Kong-listed stocks, while large outflows indicate investor pessimism.
+This strategy works well when Southbound trading volumes are aligned with broader macroeconomic trends, but it may underperform during periods of policy shifts or high market uncertainty.
+
+
+CFETS Trading strategy
+1) Explain CFETS
+Provides a fundamental anchor for CNH  valuation
+CFETS RMB index is a trade-weighted index that tracks the value of CNY against a basket of foreign currencies
+Reflects China’s trade relationships
+China seeks to emphasize on a multilateral exchange rate system, apart from just USD and reflect Yuan’s performance relative to broader basket
+CFETS index strengthen => highlights yuan appreciation
+CFETS index weaken => suggests yuan depreciation
+CFETS used to influence the CNY fixings daily as well
+
+
+2) CNH (offshore yuan) trades freely in global markets, deviation between CFETS level and CNH price creates trading opportunity
+
+Using linear regression to model the relationship between CNH and CFETS, to provide a statistical fair value estimate for CNH based on CFETs. 
+Momentum works better on CFETS- CNH spread trading strategy, highlighting divergences are persistent
+Spread drifts persistently, mean reverting strategies assume rapid correction
+CFETS-related moves are often structural rather than short term dislocations => as such CNH tends to follow in a trending manner, making momentum strategies more effective
+CNH is also heavily influenced by interest rate differentials and capital flow regimes. Macro capital flows sustain trends longer than mean reverting assumptions.
+Macro environment that this works well in: Strong trends and persistent divergences = doing covid 19 (20202-021) China’s economic outperformance, fed tightening (2022) and CHina slowdown (2023)- continued selling cnh as growth disappointed
+Macro environments that it does not work well in: PBOC interventions, when CNH artificially stabilised via liquidity injections and FX reserves, CNH volatility with frequent reversals
+
+Mean reversion would work more strongly if
+PBOC explicitly reinforces CFETS as an anchor, defending CFETs level with direct intervention
+Further improvement, adjust strategy for different regimes - test for mean reversion vs momentum patterns 
+
+
+
+Volatiltiy adjusted carry trade strategy
+
+The volatility-adjusted carry trade strategy is a powerful tool for measuring CNH performance as it leverages the relationship between interest rate differentials and currency volatility to generate returns. The strategy involves borrowing in a currency with a low-interest rate and investing in a currency with a higher rate, while adjusting for the volatility of the target currency. For CNH, this strategy can provide insights into capital flows and market expectations, as it directly incorporates China’s interest rate policy (set by the PBOC) and global liquidity conditions. When the PBOC raises interest rates or maintains a positive rate differential over other major economies (such as the USD), it creates an attractive carry for CNH, prompting inflows from investors seeking higher returns. Conversely, when volatility in CNH increases, driven by market uncertainty, policy changes, or external shocks (e.g., trade tensions), the carry trade becomes riskier and could lead to capital outflows, pushing the CNH lower. Furthermore, adjusting for volatility allows traders to better gauge the risk-adjusted return on CNH investments, making it a more reliable indicator of CNH strength or weakness in varying market conditions. The strategy can also highlight shifts in global risk appetite and market sentiment, which are crucial for understanding CNH dynamics, particularly in periods of financial market stressor policy shifts in China.
+The volatility-adjusted carry trade strategy works well when there is a stable interest rate differential between China and other major currencies, particularly the USD, and when market volatility is low or moderate. In such conditions, CNH becomes an attractive currency for carry trades, offering higher returns with lower risk. The strategy also performs well when global liquidity is abundant, such as during periods of easy monetary policies in developed markets. However, it underperforms during periods of high volatility, market uncertainty, or global risk-off sentiment, as sudden shifts in market sentiment can trigger capital outflows from CNH. Additionally, abrupt monetary policy changes by the PBOC, such as rate cuts or easing measures, can narrow the interest rate differential, weakening the carry trade's attractiveness and leading to CNH depreciation. Thus, the strategy tends to fail when there is a rise in market risk or when policy changes signal economic instability.
+
+
+Macroeconomic random forest model
+The macroeconomic random forest classifier model uses key economic indicators—retail sales, GDP, unemployment, and inflation—to predict the direction of the CNH. This machine learning model trains on historical macroeconomic data, learning complex non-linear relationships between these variables and CNH performance. The trade strategy involves using the model's predicted probabilities to gauge whether the CNH is likely to appreciate or depreciate. For example, if the model predicts a strong positive correlation between strong GDP growth and CNH appreciation, the strategy will trigger long CNH positions. Conversely, weak retail sales, high unemployment, or rising inflation would signal potential depreciation, leading to short positions on CNH.
+This approach is effective because it captures the multivariate impact of economic conditions on the currency, allowing the model to adapt to changing macroeconomic environments and providing a data-driven, objective basis for trading decisions. By leveraging the random forest algorithm, the model can handle complex interactions and noise within the data, making it robust to changes in economic conditions.
+However, risks include the model's reliance on historical data, which may not always predict future performance, especially during periods of policy shifts or unexpected global events. Additionally, the model may struggle to account for short-term volatility or external shocks, which can lead to model mispredictions and potentially large drawdowns. Furthermore, overfitting to historical data can lead to poor out-of-sample performance if the underlying macroeconomic relationships change.
+
+Combining trade strategies
