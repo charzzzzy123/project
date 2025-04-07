@@ -1,0 +1,90 @@
+Absolutely! Here's a **comprehensive 6-minute presentation script** (approx. 900 words) for your **tariff risk sentiment and trade opportunity framework**, structured around the 4-slide format we discussed.
+
+---
+
+### 🎤 **Slide 1: NLP-Based Tariff Sentiment Engine (1:30)**
+
+> “To start, the first pillar of our framework is a real-time **NLP-based tariff sentiment engine**, designed to quantify geopolitical trade tensions.
+
+> We begin with a **broad data pipeline** ingesting tariff-related news from structured and unstructured sources — Bloomberg, Reuters, Twitter, and government press releases. These sources are filtered for keywords around tariffs, sanctions, or retaliation, and time-stamped for event alignment.
+
+> From there, we run **Natural Language Processing** on these headlines and articles. Using Named Entity Recognition, we tag countries, companies, and sectors affected. We then classify sentiment using fine-tuned models like **FinBERT** or large language models, distinguishing between hawkish or dovish trade tones.
+
+> To go deeper than individual headlines, we apply **topic modeling**, clustering narratives into themes like “China EV tariffs,” or “U.S. steel sanctions,” allowing us to detect shifts in macro narratives.
+
+> The final output is a **daily sentiment index**, tracked over time by country or sector. We decay older data to emphasize recency, and weight sentiment by source reliability — giving more weight to official policy statements over social media chatter.
+
+> **Use case:** when tariff sentiment toward China spikes negative, our system flags risk-off scenarios for China-sensitive assets like **USDCNH, HK equities, or EM FX**. Combined with Northbound Connect outflows, this creates an early signal to de-risk or short.”
+
+---
+
+### 🎤 **Slide 2: Kalshi & Polymarket Signal Integration (1:00)**
+
+> “The second pillar enhances this model with **prediction market signals**, extracted from platforms like **Kalshi and Polymarket**.
+
+> These markets let retail and institutional participants bet on real-world events, such as: ‘Will the U.S. impose new tariffs on Chinese goods by Q3?’ or ‘Will the EU introduce auto tariffs this summer?’
+
+> We extract several features here:
+> 1. **Implied probabilities** — the market consensus on a policy action.
+> 2. **Pricing momentum** — changes in odds indicating rising conviction.
+> 3. **Volatility of pricing** — signaling crowd disagreement and event risk.
+> 4. **Time decay** — highlighting urgency as deadlines approach.
+
+> We then interpret these signals as **forward-looking sentiment deltas**. For example, if Kalshi odds jump from 30% to 65% over a week, we view that as rising market consensus on escalation.
+
+> **Use case:** These market signals act as a **conviction enhancer** for our NLP sentiment engine. If both sentiment is turning negative and prediction markets show increasing odds of tariffs, we flag that as a **high-confidence trigger for trade action**.”
+
+---
+
+### 🎤 **Slide 3: Tariff Beta Estimation Framework (1:00)**
+
+> “The third and final pillar is a **tariff beta model** that identifies which assets are most sensitive to trade tensions — historically and dynamically.
+
+> We start by constructing **event indices** from key periods like the 2018–2020 US-China trade war. We then run regressions of asset returns — FX, equities, or credit — against these indices to estimate **historical tariff betas**.
+
+> The analysis is done in a **rolling window** to capture how sensitivities evolve. For example, CNH and semiconductor equities had high betas early in the trade war, but other sectors like European autos gained exposure later.
+
+> Assets are then ranked by their tariff betas, and these ranks feed directly into our trade selection engine. The focus is cross-asset:  
+> - FX: USDCNH, KRW, AUD  
+> - Equities: Autos, Semis, Industrials  
+> - Credit: High-yield EM names
+
+> **Use case:** If sentiment turns negative on China, and USDCNH ranks top 5 in tariff beta, it becomes a strong candidate for short exposure — especially if confirmed by Kalshi odds and outflows in Chinese equities.”
+
+---
+
+### 🎤 **Slide 4: Integration & Trade Framework (2:00)**
+
+> “So how do we pull this all together into a systematic, actionable strategy?
+
+> Our integration layer overlays all three signals into a composite model:
+> - **NLP Tariff Sentiment Score**: real-time risk perception
+> - **Kalshi/Polymarket Probabilities**: forward-looking event pricing
+> - **Tariff Beta Rankings**: asset-level sensitivity to tariff shocks
+
+> We multiply these three layers together to generate a **composite score**. When this composite breaches thresholds, we generate **directional trade signals**, with confidence tiers.
+
+> For example:  
+> - Negative sentiment on China spikes  
+> - Kalshi odds rise to 70% for new tariffs  
+> - USDCNH ranks top 3 in tariff beta  
+
+> → This triggers a **short USDCNH position**, sized based on volatility and conviction.
+
+> We embed this model into a **live dashboard** that displays real-time sentiment maps, beta exposures, and event market signals. The output can also trigger **Slack or email alerts** for portfolio managers.
+
+> Trades are executed with **volatility-adjusted sizing**, optionally enhanced by **Kelly Criterion scaling**. Risk management is built-in: we use rolling volatility stops and macro regime filters to avoid false signals during noisy news periods.
+
+> **Backtests** on EMFX and Asia equities show promising alpha when this framework is applied during tariff-heavy geopolitical cycles, such as 2018 or mid-2023.”
+
+---
+
+### 🎤 **Wrap-Up (0:30)**
+
+> “To summarize, this framework gives us a **quantamental edge** in interpreting tariff-related geopolitical risk. We fuse real-time NLP with market-implied event pricing and historical beta exposure — creating a robust toolkit for global macro and EM-focused trade strategies.
+
+> It’s systematic, forward-looking, and grounded in both narrative and market data — ideal for modern global macro desks seeking to capture alpha from policy volatility.”
+
+---
+
+Let me know if you want this turned into a PowerPoint or want help automating any part of the pipeline (NLP, Kalshi integration, etc.)
